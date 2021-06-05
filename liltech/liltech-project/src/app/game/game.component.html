@@ -1,0 +1,10 @@
+<mat-toolbar color="primary" class="text-center">
+    Mémoire de carte
+  </mat-toolbar>
+  <div class="p-16">
+    <p class="text-center">Appuyez sur une carte pour la retourner. Vous ne pouvez retourner qu'un maximum de deux cartes à la fois. Un match supprimera ces cartes !</p>
+    <div class="grid p-16">
+      <app-game-card *ngFor="let c of cards; let idx=index" [data]="c" (cardClicked)="cardClicked(idx)">
+      </app-game-card>
+    </div>
+  </div>
