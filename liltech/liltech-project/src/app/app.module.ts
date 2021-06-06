@@ -15,6 +15,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { AutismeComponent } from './autisme/autisme.component';
+import { DepistageComponent } from './depistage/depistage.component';
+import { InformationsanteComponent } from './informationsante/informationsante.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { AutismeComponent } from './autisme/autisme.component';
     GameCardComponent,
     RestartDialogComponent,
     GameComponent,
-    AutismeComponent
+    AutismeComponent,
+    DepistageComponent,
+    InformationsanteComponent
   ],
   imports: [
     BrowserModule,
