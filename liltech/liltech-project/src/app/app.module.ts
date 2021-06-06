@@ -14,6 +14,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
+import { AutismeComponent } from './autisme/autisme.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     TemplatesComponent,
     GameCardComponent,
     RestartDialogComponent,
-    GameComponent
+    GameComponent,
+    AutismeComponent
   ],
   imports: [
     BrowserModule,
