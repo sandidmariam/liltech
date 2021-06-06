@@ -5,6 +5,7 @@ import { TemplatesComponent } from './templates/templates.component';
 import {AutismeComponent} from "./autisme/autisme.component";
 import {DepistageComponent} from "./depistage/depistage.component";
 import {InformationsanteComponent} from "./informationsante/informationsante.component";
+import {TeamComponent} from "./team/team.component";
 
 const routes: Routes = [];
 
@@ -14,7 +15,8 @@ const routes: Routes = [];
     {path: '', component: TemplatesComponent},
     {path: 'autisme/definition', component: AutismeComponent},
     {path: 'autisme/depistage', component: DepistageComponent},
-    {path: 'autisme/informationSante', component: InformationsanteComponent}
+    {path: 'autisme/informationSante', component: InformationsanteComponent},
+    {path: 'autisme/team', component: TeamComponent}
 
   ]),
 ],

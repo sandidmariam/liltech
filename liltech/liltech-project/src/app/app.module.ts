@@ -17,6 +17,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { AutismeComponent } from './autisme/autisme.component';
 import { DepistageComponent } from './depistage/depistage.component';
 import { InformationsanteComponent } from './informationsante/informationsante.component';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { InformationsanteComponent } from './informationsante/informationsante.c
     GameComponent,
     AutismeComponent,
     DepistageComponent,
-    InformationsanteComponent
+    InformationsanteComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
